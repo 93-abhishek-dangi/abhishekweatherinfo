@@ -81,7 +81,7 @@ function dayOfTheweek(day , month, year){
            code == 1030 || code == 1069 || code == 1087 ||
            code == 1135 || code == 1273 || code == 1276 ||
            code == 1279 || code == 1282) {
-               app.style.backgroundImage = `url(./img/${timeOfDay}/cloudy.jpg)`;
+               app.style.backgroundImage = `url(../img/${timeOfDay}/cloudy.jpg)`;
        }
        else if (code == 1063 || code == 1072 || code == 1069 ||
            code == 1150 || code == 1153 || code == 1180 ||
