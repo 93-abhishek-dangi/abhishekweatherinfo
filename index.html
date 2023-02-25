@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-info</title>
+    <link rel="stylesheet" href="./css/weather.css">
+
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">Abhi Mousam Shastra</h3>
+         <div class="flex-item">
+            <h1 class="temp">16&#176;</h1>
+            <div class="city-time">
+                <h1 class="name">London</h1>
+                <small>
+                    <span class="time">06:09</span>
+                    <span class="day">Monday</span>
+                    <span class="date">Sept 19</span>
+                </small>
+            </div>
+            <div class="weather">
+                <img src="/icons/day/113.png" alt="" class="icon" width="50" height="50">
+                <span class="condition">Cloudy</span>
+            </div>   
+        </div>
+        </div>
+        <div class="panel">
+            <form action="" id="locationInput">
+                <button type="submit" class="submit">Get info</button>
+                <input type="text" class="search" placeholder="search location" value="Delhi">
+            </form>
+            <ul>
+                <li class="city">New York</li>
+                <li class="city">Jhansi</li>
+                <li class="city">Bhopal</li>
+                <li class="city">Delhi, India</li>
+            </ul>
+            <ul class="details">
+                <li>
+                    <span> Cloudy :</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity :</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind :</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="./weather.js"></script>
+</body>
+</html>
