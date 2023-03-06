@@ -51,6 +51,7 @@ details li{display: flex; justify-content: space-between; align-items: center;}
 }
 @media screen and (max-width:500px){
     html{ font-size: 14px;}
+    .flex-item{flex-direction: column;}
 }
 @media screen and (max-height:300px){
     .weather-app{
